@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .site-title {
+            background-color: #228B22;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            text-align: center;
+            margin: 15px 0;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #4CAF50;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .gallery-container {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 0;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="site-title" style="color:black;">
+        DAIRY FARM SHOP SYSTEM
+    </div>
+
+    <header>
+        <h1>Gallery</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="products.html">Products</a>
+        <a href="index.php">Login</a>
+    </nav>
+
+    <div class="gallery-container">
+        <h2 style="color:aqua;">OUR PRODUCT GALLERY</h2>
+        <p style="color:red;">HERE ARE SOME OF OUR FRESH DAIRY PRODUCTS:</p>
+        <div class="gallery">
+            <img src="https://cdn.zeptonow.com/production/ik-seo/tr:w-640,ar-1080-1080,pr-true,f-auto,q-80/cms/product_variant/404b473d-e924-4f0b-91e6-8138c4a16c01/Doodhvale-Farms-Fresh-Cow-Milk-Pouch.jpeg" alt="Fresh Milk">
+            <img src="https://media.istockphoto.com/id/531009927/photo/sliced-cheese.jpg?s=612x612&w=0&k=20&c=jtxTsTpAClDJkJ9UpAOrYyUxHTq-8QeMOIutgFI0TzM=" alt="Cheese">
+            <img src="https://thedairyfoodgroup.com/swfiles/files/ogi-verse-kwark.jpg" alt="Yogurt">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVLCEwr4W6uiCtyeAatwQrQgarPviSLEcD5g&s" alt="Butter">
+            <img src="https://rukminim3.flixcart.com/image/850/1000/xif0q/ghee/o/m/i/500-a2-desi-cow-milk-ghee-pure-and-natural-rich-aroma-flavor-original-imah4cb4mddwdygv.jpeg?q=90&crop=false" alt="Ghee">
+            <img src="https://provedic.in/wp-content/uploads/2022/09/IMG_4860-600x800.jpg" alt="Paneer">
+            <img src="https://5.imimg.com/data5/TJ/PJ/QV/ANDROID-68348278/product-jpeg-500x500.jpg" alt="Buttermilk">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo3EgA9dAg4tf-IUJGRNhI0gDDJo4NJIszmA&s" alt="Flavored Milk">
+            <img src="https://us.123rf.com/450wm/macrovector/macrovector2209/macrovector220900872/194921937-eggs-package-mockup-poster.jpg?ver=6" alt="Farm Eggs">
+            <img src="https://basta.co.in/wp-content/uploads/2024/08/Untitled-design-7-1.png" alt="Goat Milk">
+            <img src="https://thumbs.dreamstime.com/z/fresh-organic-tomato-farm-production-banner-flyer-vector-illustration-layout-hand-drawn-engraving-sketch-background-245605604.jpg" alt="Fresh Organic Tomatoes">
+            <img src="https://static1.bigstockphoto.com/7/7/4/large2/477934403.jpg" alt="Farm Fresh Onions">
+            <img src="https://freedesignfile.com/upload/2019/07/Fresh-Organic-Carrots-Ad-Template-vector.jpg" alt="Organic Carrots">
+            <img src="https://images.picxy.com/cache/2021/1/22/41257a5115659e5c4eff65e6156930cf.jpg" alt="Harvested Potatoes">
+            <img src="https://shameebeefarm.com/wp-content/uploads/2023/10/about-gif.gif" alt="Organic Farm Honey Jar">
+        </div>
+    </div>
+
+</body>
+</html>
